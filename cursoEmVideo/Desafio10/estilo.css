@@ -60,5 +60,19 @@ section.extra{
 }
 
 ul{
-    text-decoration:;
+    text-decoration:solid;
 }
+
+footer{
+    background-color: rgba(97, 185, 97, 0.842);
+    text-align:center;
+    padding:1px;
+    margin: 10px;
+}
+footer>p{
+    padding:1px;
+    margin: 1px;
+}
+
+
+
