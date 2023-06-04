@@ -43,12 +43,14 @@ nav >a:hover{
 
 main{
     background-color: rgb(224, 188, 67);
-    padding:14px;
-    margin:auto;
+    padding:7px;
+    margin:7px;
     border-radius: 10px 10px;
-    width: 600px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
+
 
 section{
 margin: 10px;
@@ -69,10 +71,10 @@ footer>p{
     margin: 1px;
    
 }
-section>img{
-    width:20%;
-    height:20%;
-    border-radius: 30px 30px;
+img{
+    width:250px;
+    height:250px;
+    border-radius: 50px 50px;
 }
 p{
     font-family:'Times New Roman', Times, serif;
