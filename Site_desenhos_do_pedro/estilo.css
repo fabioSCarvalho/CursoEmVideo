@@ -1,83 +1,99 @@
 @charset "UTF-8";
 
-
-
-body{
-background-color:#164EA8;
-padding: 10px;
-margin: 10px;
-color: #ffc300;
-}
-
-main{
-    background-color: #001D3D;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 7px;
-    height:auto;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
 }
 
 header{
-    background-color:#000814;
+    padding: 12px;
+    background-color: lightseagreen;
+}
+
+header h1{
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
-    
+    font-weight: normal;
 }
 
 header>h2{
-    text-align: center;
+   padding: 10px; 
+   margin: 10px;
+   text-align: center;
+   transition-duration: 10s;
 }
 
-#menu{
+nav > a{
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
     background-color: white;
+    padding: 4px;
+    border-radius: 10px;
     text-align: center;
-    padding: 5px;
-    border-radius: 7px;
 }
 
-ul{
-    width: auto;
-    height: 100px;
+#menu > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 20px;
 }
 
-
-nav>a:hover{
-    border-radius: 7px;
-    background-color: darkgray;  
-   
+main{
+    background-color: bisque;
+    padding: 10px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    min-height: 600px;
+}
+section{
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
 }
 
-
-nav>a{
-    padding:5px;
-    margin: 50px;
-    text-decoration: none;  
-    color: #000814; 
+section > h1{
+ padding: 10px;
+ margin: 10px;
+ color: white;
+ background-image: linear-gradient(to right, black, transparent);
 }
 
+picture >img{
+    width: 300px;
+    height: 300px;
+}
+
+div.video{
+    background-color: black;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 40%;
+    margin: 7px 20px 40px 20px ;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+
+}
 
 footer{
-    background-color: #003566;
+    background-color: darkcyan;
     padding: 5px;
-    margin: 10px;
+    margin-top: 3px;
+}
+
+footer > p {
+    color: white;
+    padding: 5px;
     text-align: center;
 }
-
-footer>p{
-    padding: 0px;
-    margin: 0px;
-   
-}
-iframe{
-    border-radius: 10px;
-}
-section>img{
-  
-    display: inline;
-}
-
-section{
-    padding:15px;
-}
-
