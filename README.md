@@ -1,2 +1,2 @@
-#Curso em video \n
-Estudos sobre html,css, javascript através do canal curso em video
+#Curso em video <br>
+Estudos sobre html,css e javascript através do canal curso em video
